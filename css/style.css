@@ -1,0 +1,520 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('Montserrat-Bold.eot');
+    src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.ttf') format('truetype'),
+        url('Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Black';
+    src: url('Montserrat-Black.eot');
+    src: url('Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Black.woff2') format('woff2'),
+        url('Montserrat-Black.woff') format('woff'),
+        url('Montserrat-Black.ttf') format('truetype'),
+        url('Montserrat-Black.svg#Montserrat-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Ultra';
+    src: url('Montserrat-UltraLight.eot');
+    src: url('Montserrat-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-UltraLight.woff2') format('woff2'),
+        url('Montserrat-UltraLight.woff') format('woff'),
+        url('Montserrat-UltraLight.ttf') format('truetype'),
+        url('Montserrat-UltraLight.svg#Montserrat-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('Montserrat-Light.eot');
+    src: url('Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Light.woff2') format('woff2'),
+        url('Montserrat-Light.woff') format('woff'),
+        url('Montserrat-Light.ttf') format('truetype'),
+        url('Montserrat-Light.svg#Montserrat-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Semi';
+    src: url('Montserrat-SemiBold.eot');
+    src: url('Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-SemiBold.woff2') format('woff2'),
+        url('Montserrat-SemiBold.woff') format('woff'),
+        url('Montserrat-SemiBold.ttf') format('truetype'),
+        url('Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.eot');
+    src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff'),
+        url('Montserrat-Regular.ttf') format('truetype'),
+        url('Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Hairline';
+    src: url('Montserrat-Hairline.eot');
+    src: url('Montserrat-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Hairline.woff2') format('woff2'),
+        url('Montserrat-Hairline.woff') format('woff'),
+        url('Montserrat-Hairline.ttf') format('truetype'),
+        url('Montserrat-Hairline.svg#Montserrat-Hairline') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Extra';
+    src: url('Montserrat-ExtraBold.eot');
+    src: url('Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-ExtraBold.woff2') format('woff2'),
+        url('Montserrat-ExtraBold.woff') format('woff'),
+        url('Montserrat-ExtraBold.ttf') format('truetype'),
+        url('Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h3 {
+    letter-spacing: 4px;
+    color: rgb(224 81 25);
+    font-family: "Montserrat Light";
+}
+
+p {
+    font-family: "Montserrat Light";
+    font-size: 21px;
+}
+
+b {
+    font-weight: bold
+}
+
+.btn-nav {
+    background-color: rgb(224 81 25);
+    color: white;
+    border-radius: 0;
+    width: 100% !important;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6px;
+    margin-bottom: 32px;
+}
+
+.cell-buttons {
+    flex-grow: 0.25;
+    padding: 5px;
+    width: 25%;
+}
+
+@media (max-width: 920px) {
+    .cell-buttons {
+        width: calc(50%)
+    }
+}
+
+@media (max-width: 360px) {
+    .cell-buttons {
+        width: calc(100%)
+    }
+}
+
+.highlight-green {
+    font-family: "Montserrat Light";
+    background-color: rgb(57 181 74);
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    font-size: 17px;
+}
+
+
+
+.highlight-green:hover {
+    background-color: rgb(85 202 100);
+    text-decoration:underline;
+}
+
+.mail:hover{
+    color: purple;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-group {
+        display: block;
+    }
+
+    .btn-group .btn {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+.footer-container {
+    background-color: rgb(224 81 25);
+    width: 100vw;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+}
+
+.btn:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.hotel-name {
+    width: 50%;
+}
+
+.hotel-name h2 {
+    font-family: "Montserrat Hairline";
+    letter-spacing: 4px;
+    font-size: 30px;
+    height:90%;
+    border-left:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    text-align: center;
+    margin-top:5%;
+    padding-top:35%;
+}
+
+.hotel-pic{
+    width: 50%;
+}
+
+.room-pic{
+    width: 42%;
+}
+
+.room-info{
+    width: 58%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .hotel-name h2{
+        padding-top:28%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hotel-name{
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 0px;
+        
+    }
+
+    .room-info{
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .hotel-name h2{
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
+        border-right: 2px solid ;
+        padding: 24px;
+    }
+
+    .hotel-pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .room-pic{
+        width: 100%;
+    }
+
+    .table{
+        border-left:1px solid black;
+        border-right:1px solid black;
+    }
+
+    .table tr td{
+        padding-left: 0%;
+        text-align: center;
+    }
+}
+
+.table{
+    line-height:1rem;
+    text-align:center;
+}
+
+.table td{
+    border-bottom:1px solid grey;
+    border-top:3px solid #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+    
+}
+
+.dropdown-content a {
+    font-family: "Montserrat Light";
+    font-size: 15px;
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    border-bottom: gray 1px solid;
+    border-left: gray 1px solid;
+    border-right: gray 1px solid;
+}
+
+.dropdown-content a:first-child {
+    border-top: gray 1px solid;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(224 81 25);
+    color: white;
+}
+
+.dropdown-link {
+    font-size: small;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hotel-pic {
+    margin: 0px;
+    padding: 0px;
+}
+
+.book-now {
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(224 81 25);
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.book-now:hover, .btn:focus, .btn:active{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+html{scroll-behavior:smooth}
+
+* {
+    font-family: "Montserrat Light";
+}
+
+/**
+ * Start Vanilla CSS 1.0.2 
+ */ 
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+pre, code, tt {
+    font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
+}
+h1, h2, h3, h4, h5, h6, b, strong {
+    font-weight: bold;
+}
+em, i, dfn {
+    font-style: italic;
+}
+dfn {
+    font-weight:bold;
+}
+p, code, pre, kbd {
+    margin:0 0 1.5em 0;
+}
+blockquote {
+    margin:0 1.5em 1.5em 1.5em;
+}
+cite {
+    font-style: italic;
+}
+li ul, li ol {
+    margin:0 1.5em;
+}
+ul, ol {
+    margin:0 1.5em 1.5em 1.5em;
+}
+ul {
+    list-style-type:disc;
+}
+ol {
+    list-style-type:decimal;
+}
+ol ol {
+    list-style: upper-alpha;
+}
+ol ol ol {
+    list-style: lower-roman;
+}
+ol ol ol ol {
+    list-style: lower-alpha;
+}
+dl {
+    margin:0 0 1.5em 0;
+}
+dl dt {
+    font-weight:bold;
+}
+dd {
+    margin-left:1.5em;
+}
+table {
+    margin-bottom:1.4em;
+    width:100%;
+}
+th {
+    font-weight:bold;
+}
+th, td, caption {
+    padding:4px 10px 4px 5px;
+}
+tfoot {
+    font-style:italic;
+}
+sup, sub {
+    line-height:0;
+}
+abbr, acronym {
+    border-bottom: 1px dotted;
+}
+address {
+    margin:0 0 1.5em;
+    font-style:italic;
+}
+del {
+    text-decoration: line-through;
+}
+pre {
+    margin:1.5em 0;
+    white-space:pre;
+}
+img.centered, .aligncenter, div.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.alignright {
+    display: inline;
+}
+img.alignleft {
+    display: inline;
+}
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+img {
+    max-width: 100%;
+}
+* html .clearfix {
+    height: 1%;
+}
+* + html .clearfix {
+    display: inline-block;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .group {
+    height: 1%;
+}
+* + html .group {
+    display: inline-block;
+}
+.group:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/**
+* End Vanilla CSS
+*/
+
+/**
+* Start Helpers
+*/
+
+
+/**
+* End Helpers
+*/
