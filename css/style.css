@@ -182,6 +182,15 @@ b {
         width: 100%;
         margin: 10px;
     }
+
+    #override h3 {
+      font-size: 20px;
+    }
+
+    #override p {
+      font-size: 15px;
+    }
+
 }
 
 .footer-container {
@@ -237,6 +246,10 @@ b {
 }
 
 @media only screen and (max-width: 768px) {
+    .room-info{
+      margin-top: 30px;
+    }
+
     .hotel-name{
         width: 100%;
         margin-top: 0px;
@@ -252,9 +265,10 @@ b {
 
     .hotel-name h2{
         width: 100%;
+        font-size: 25px;
         padding-top: 0px;
         margin-top: 0px;
-        border-right: 2px solid ;
+        border: none;
         padding: 24px;
     }
 
@@ -267,16 +281,19 @@ b {
 
     .room-pic{
         width: 100%;
-    }
-
-    .table{
-        border-left:1px solid black;
-        border-right:1px solid black;
+        margin-bottom: 30px;
     }
 
     .table tr td{
-        padding-left: 0%;
+        padding-left: 5% !important;
+        font-size: 15px !important;
         text-align: center;
+    }
+
+    table tr td{
+      padding-left: 5% !important;
+      font-size: 15px !important;
+      text-align: center;
     }
 }
 
